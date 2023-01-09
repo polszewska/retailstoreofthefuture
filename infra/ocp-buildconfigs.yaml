@@ -9,7 +9,7 @@ spec:
     sourceSecret:
       name: retail-git-ssh-key
     git:
-      uri: 'git@github.com:pgrabusz/retailstoreofthefuture.git'
+      uri: 'git@github.com:tejones/retailstoreofthefuture.git'
       ref: develop-pl
     contextDir: recommendation-service/
   strategy:
@@ -37,7 +37,7 @@ spec:
     sourceSecret:
       name: retail-git-ssh-key
     git:
-      uri: 'git@github.com:pgrabusz/retailstoreofthefuture.git'
+      uri: 'git@github.com:tejones/retailstoreofthefuture.git'
       ref: develop-pl
     contextDir: prediction-service/
   strategy:
@@ -65,7 +65,7 @@ spec:
     sourceSecret:
       name: retail-git-ssh-key
     git:
-      uri: 'git@github.com:pgrabusz/retailstoreofthefuture.git'
+      uri: 'git@github.com:tejones/retailstoreofthefuture.git'
       ref: develop-pl
     contextDir: visualization-app/
   strategy:
@@ -93,7 +93,7 @@ spec:
     sourceSecret:
       name: retail-git-ssh-key
     git:
-      uri: 'git@github.com:pgrabusz/retailstoreofthefuture.git'
+      uri: 'git@github.com:tejones/retailstoreofthefuture.git'
       ref: develop-pl
     contextDir: scenario-player/
   strategy:
